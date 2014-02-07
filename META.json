@@ -59,7 +59,7 @@
    "provides" : {
       "WebService::ImKayac::Simple" : {
          "file" : "lib/WebService/ImKayac/Simple.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -73,5 +73,5 @@
          "web" : "https://github.com/moznion/WebService-ImKayac-Simple"
       }
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }

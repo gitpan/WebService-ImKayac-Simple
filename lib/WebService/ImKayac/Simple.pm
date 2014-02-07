@@ -9,7 +9,7 @@ use JSON ();
 
 use constant IM_KAYAC_BASE_URL => 'http://im.kayac.com/api/post/';
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub new {
     my ($class, %arg) = @_;
@@ -63,6 +63,10 @@ sub send {
         ['Content-Type' => 'application/x-www-form-urlencoded'],
         $param,
     );
+
+    unless ($res->is_success) {
+        croak "[ERROR] " . $res->status_line;
+    }
 
     my $json = JSON::decode_json($res->{content});
     if (my $error = $json->{error}) {
