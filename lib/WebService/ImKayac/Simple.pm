@@ -10,7 +10,7 @@ use JSON ();
 
 use constant IM_KAYAC_BASE_URL => 'http://im.kayac.com/api/post/';
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 sub new {
     my ($class, %arg) = @_;
@@ -21,7 +21,7 @@ sub new {
     my $password = '';
     my $type = $arg{type};
     if ($type) {
-        if ($type !~ /(?:password|secret)/) {
+        if ($type !~ /^(?:password|secret)$/) {
             croak "[ERROR] Invalid type: $type (type must be 'password' or 'secret')";
         }
 

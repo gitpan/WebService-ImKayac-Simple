@@ -28,7 +28,7 @@ no_index:
 provides:
   WebService::ImKayac::Simple:
     file: lib/WebService/ImKayac/Simple.pm
-    version: 0.03
+    version: 0.04
 requires:
   Digest::SHA1: 0
   Encode: 2.57
@@ -39,4 +39,4 @@ resources:
   bugtracker: https://github.com/moznion/WebService-ImKayac-Simple/issues
   homepage: https://github.com/moznion/WebService-ImKayac-Simple
   repository: git://github.com/moznion/WebService-ImKayac-Simple.git
-version: 0.03
+version: 0.04
