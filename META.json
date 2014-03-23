@@ -4,7 +4,7 @@
       "moznion <moznion@gmail.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Minilla/v0.11.0",
+   "generated_by" : "Minilla/v0.12.0",
    "license" : [
       "perl_5"
    ],
@@ -48,6 +48,7 @@
             "Encode" : "2.57",
             "Furl" : "0",
             "JSON" : "0",
+            "YAML::Tiny" : "0",
             "perl" : "5.008005"
          }
       },
@@ -60,7 +61,7 @@
    "provides" : {
       "WebService::ImKayac::Simple" : {
          "file" : "lib/WebService/ImKayac/Simple.pm",
-         "version" : "0.04"
+         "version" : "0.10"
       }
    },
    "release_status" : "stable",
@@ -74,5 +75,5 @@
          "web" : "https://github.com/moznion/WebService-ImKayac-Simple"
       }
    },
-   "version" : "0.04"
+   "version" : "0.10"
 }

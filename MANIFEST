@@ -12,6 +12,7 @@ lib/WebService/ImKayac/Simple.pm
 minil.toml
 t/00_compile.t
 t/01_basic.t
+t/resources/config.yml
 xt/perlcritic.t
 xt/perlcriticrc
 xt/webapi/00_none.t
